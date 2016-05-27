@@ -1,1 +1,12 @@
-
+{ 
+  "Name" :  "heroku-nodo" , 
+  "Descripción" :  "Nuestra Nodo muestra a Heroku aplicación" , 
+  "principal" :  "server.js" , 
+  "scripts" :  { 
+    "start" :  "nodo server.js" 
+  } , 
+  "dependencias" :  { 
+    "ejs" :  "~ 1.0.0" , 
+    "Express" :  "~" 4.9.8 
+  } 
+}
